@@ -12,7 +12,12 @@
 
 ## 🔍 Simulation
 - Tool: QuestaSim / EDA Playground  
-- Screenshot of waveform (to be added)
+- ### 📊 Waveform Output
+Here is the simulation waveform:  
+
+![Waveform](mux2_1_waveform.png)
+
+- Output Verified
 
 ---
 
