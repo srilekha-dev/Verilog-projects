@@ -1,21 +1,14 @@
-
 # Verilog Projects Portfolio  
 
 This repository contains my **Verilog RTL design and testbench practice projects**.  
+Each project folder has:  
+- RTL Design Code  
+- Testbench  
+- Truth Table & Explanation  
+- Simulation Waveform  
 
-## 📂 Folder Structure
-verilog-projects/
-│── 01_mux/
-│ ├── mux2_1.v
-│ ├── mux2_1_tb.v
-│ └── README.md
-│
-│── 02_d_latch/
-│ ├── d_latch.v
-│ ├── d_latch_tb.v
-│ └── README.md
-│
-│── 03_t_latch/
-│ ├── t_latch.v
-│ ├── t_latch_tb.v
-│ └── README.md
+## 📂 Projects
+1. [2:1 Multiplexer](01_mux/)  
+2. [D Latch](02_d_latch/)  
+3. [T Latch](03_t_latch/)  
+(More to be added daily...)
