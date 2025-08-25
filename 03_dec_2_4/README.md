@@ -14,3 +14,15 @@ Only one output will be active (logic high `1`) at a time, depending on the inpu
 | 1           | 1  | 0  | 0  | 1  | 0  | 0  |
 | 1           | 1  | 1  | 1  | 0  | 0  | 0  |
 
+## 📝 Code
+- [dec2_4.v](dec2_4.v) – RTL Design  
+- [dec2_4_tb.v](dec2_4_tb.v) – Testbench  
+
+## 🔍 Simulation
+- Tool: QuestaSim / EDA Playground  
+- ### 📊 Waveform Output
+Here is the simulation waveform:  
+
+![Waveform](dec2_4_waveform.png)
+
+- Output Verified
