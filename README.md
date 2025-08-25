@@ -8,7 +8,7 @@ Each project folder has:
 - Simulation Waveform  
 
 ## 📂 Projects
-1. [2:1 Multiplexer](01_mux/)  
+1. [Multiplexer](01_mux/)  
 2. [D Latch](02_d_latch/)  
 3. [T Latch](03_t_latch/)  
 (More to be added daily...)
