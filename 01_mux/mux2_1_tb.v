@@ -1,3 +1,5 @@
+`include "mux2_1.v"
+
 module mux2_1_tb();
 reg a, b, s;
 wire y;
