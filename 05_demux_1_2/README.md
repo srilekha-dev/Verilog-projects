@@ -23,6 +23,6 @@ The 1×2 Demultiplexer consists of 1 input line (I), 1 select line (S), and 2 ou
 - Tool: QuestaSim / EDA Playground  
 - ### 📊 Waveform Output
 Here is the simulation waveform:  
-![Waveform](demux2_2_waveform.png)
+![Waveform](demux1_2_waveform.png)
 
 Output Verified!
