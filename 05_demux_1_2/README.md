@@ -8,13 +8,12 @@ The 1×2 Demultiplexer consists of 1 input line (I), 1 select line (S), and 2 ou
 - **Number of Outputs:** 2 (Y0,Y1)  
 
 ## 📘 Truth Table
-
-| S  | I  |  Y0 | Y1 |
-|----|----|----------|
-| 0  | 0  |  I  | 0  |
-| 0  | 1  |  I  | 0  |
-| 1  | 0  |  0  | I  |
-| 1  | 1  |  0  | I  |
+| I | S | Y0 | Y1 |
+| - | - | -- | -- |
+| 0 | 0 | 0  | 0  |
+| 1 | 0 | 1  | 0  |
+| 0 | 1 | 0  | 0  |
+| 1 | 1 | 0  | 1  |
 
 ## 📝 Code
 - [demux1_2.v](demux1_2.v) – RTL Design  
@@ -24,6 +23,6 @@ The 1×2 Demultiplexer consists of 1 input line (I), 1 select line (S), and 2 ou
 - Tool: QuestaSim / EDA Playground  
 - ### 📊 Waveform Output
 Here is the simulation waveform:  
-
+![Waveform](demux2_2_waveform.png)
 
 Output Verified!
