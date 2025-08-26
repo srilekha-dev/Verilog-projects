@@ -22,3 +22,28 @@ A **Ripple Carry Adder (RCA)** is a digital circuit used to add **two multi-bit 
 | 1010      | 0101      |  1  | 0000        |  1   |
 
 ---
+## 📝 Code
+
+[rca.v](rca.v) – RTL Design  
+
+[rca_tb.v](rca_tb.v) – Testbench  
+
+
+
+## 🔍 Simulation
+
+- Tool: QuestaSim / EDA Playground  
+
+- ### 📊 Waveform Output
+
+Here is the simulation waveform:  
+
+![Waveform](rca_waveform.png)
+
+
+
+Output Verified!
+
+
+
+
