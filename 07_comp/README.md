@@ -1,84 +1,57 @@
-\# 2-bit Comparator
+# 2-bit Comparator
 
+## 📘 Theory
+A **comparator** is a combinational circuit that compares two binary numbers and determines their relationship:
+- **A = B**
+- **A > B**
+- **A < B**
 
-
-\## 📘 Theory
-
-A \*\*comparator\*\* is a combinational circuit that compares two binary numbers and determines their relationship:
-
-\- \*\*A = B\*\*
-
-\- \*\*A > B\*\*
-
-\- \*\*A < B\*\*
-
-
-
-For a \*\*2-bit comparator\*\*, inputs are `A\[1:0]` and `B\[1:0]`.  
-
+For a **2-bit comparator**, inputs are `A[1:0]` and `B[1:0]`.  
 The outputs are:
-
-\- `AeqB` → High if A = B  
-
-\- `AgtB` → High if A > B  
-
-\- `AltB` → High if A < B  
-
-
+- `AeqB` → High if A = B  
+- `AgtB` → High if A > B  
+- `AltB` → High if A < B  
 
 ---
 
-
-
-\## 📝 Truth Table
-
-
+## 📝 Truth Table
 
 | A1 A0 | B1 B0 | AeqB | AgtB | AltB |
-
 |-------|-------|-------|------|------|
-
 | 00    | 00    | 1     | 0    | 0    |
-
 | 00    | 01    | 0     | 0    | 1    |
-
 | 01    | 00    | 0     | 1    | 0    |
-
 | 01    | 01    | 1     | 0    | 0    |
-
 | 10    | 01    | 0     | 1    | 0    |
-
 | 10    | 11    | 0     | 0    | 1    |
-
 | 11    | 11    | 1     | 0    | 0    |
-
 ... and so on for all 16 combinations.
-
-
 
 ---
 
 
 
-\## 📝 Code
 
-\- \[comp.v](comp.v) – RTL Design  
+## 📝 Code
 
-\- \[comp\_tb.v](comp\_tb.v) – Testbench  
+[comp.v](comp.v) – RTL Design  
+
+[comp_tb.v](comp_tb.v) – Testbench  
 
 
 
-\## 🔍 Simulation
+## 🔍 Simulation
 
-\- Tool: QuestaSim / EDA Playground  
+- Tool: QuestaSim / EDA Playground  
 
-\- ### 📊 Waveform Output
+- ### 📊 Waveform Output
 
 Here is the simulation waveform:  
 
-!\[Waveform](comp\_waveform.png)
+![Waveform](comp_waveform.png)
 
 
 
 Output Verified!
+
 
