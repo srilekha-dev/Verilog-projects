@@ -19,5 +19,7 @@ Each project folder has:
 9. [Full Adder](09_full_adder/)
 10. [Ripple Carry Adder](10_rca/)
 11. [D Latch](11_d_latch/)
-12. [T Latch](12_t_latch/)  
+12. [T Latch](12_t_latch/)
+13. [SR Latch](13_sr_latch/)
+14. [JK Latch](14_jk_latch/)
 (More to be added daily...)
