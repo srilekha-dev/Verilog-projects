@@ -22,4 +22,8 @@ Each project folder has:
 12. [T Latch](12_t_latch/)
 13. [SR Latch](13_sr_latch/)
 14. [JK Latch](14_jk_latch/)
+15. [D Flip-Flop](15_d_ff/)
+16. [T Flip-Flop](16_t_ff/)
+17. [JK Flip-Flop](17_jk_ff/)
+18. [Shift Register](18_shift_register/)
 (More to be added daily...)
