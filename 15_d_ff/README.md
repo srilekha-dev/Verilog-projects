@@ -5,8 +5,8 @@ The **D (Data or Delay) Flip-Flop** is one of the most commonly used sequential 
 It stores a single bit of data and transfers the input **D** to the output **Q** on the **clock edge**.  
 
 - **On rising edge of CLK (↑)** → Q takes the value of D.  
-- **If Reset = 1** → Q is cleared to 0.  
-- **If Reset = 0 and CLK doesn’t trigger** → Q retains its previous value.  
+- **If Reset = 0** → Q is cleared to 0.  
+- **If Reset = 1 and CLK doesn’t trigger** → Q retains its previous value.  
 
 It eliminates the **invalid state problem** of the SR latch.
 
@@ -16,10 +16,10 @@ It eliminates the **invalid state problem** of the SR latch.
 
 | CLK (↑ edge) | D | Reset | Q(next)   |
 |--------------|---|-------|-----------|
-|      ↑       | 0 |   0   |     0     |
-|      ↑       | 1 |   0   |     1     |
-|      -       | x |   0   | Q (Hold)  |
-|      x       | x |   1   |     0     |
+|      ↑       | 0 |   1   |     0     |
+|      ↑       | 1 |   1   |     1     |
+|      -       | x |   1   | Q (Hold)  |
+|      x       | x |   0   |     0     |
 
 ---
 
