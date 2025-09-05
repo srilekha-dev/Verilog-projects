@@ -26,4 +26,11 @@ Each project folder has:
 16. [T Flip-Flop](16_t_ff/)
 17. [JK Flip-Flop](17_jk_ff/)
 18. [Shift Register](18_shift_register/)
+19. [Asynchronous Counter](19_asynchronous_counter/)
+20. [Synchronous Counter](20_synchronous_counter/)
+21. [UP Counter](21_up_counter)
+22. [DOWN Counter](22_down_counter)
+23. [UP-DOWN Counter](23_up_down_counter)
+24. [Ring Counter](24_ring_counter)
+25. 
 (More to be added daily...)
