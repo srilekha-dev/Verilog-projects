@@ -37,5 +37,5 @@ Each project folder has:
 27. [Gray To Binary Converter](27_g2b_converter/)
 28. [Priority Encoder](28_priority_encoder/)
 29. [ALU](29_alu/)
-30. [Sequence Detector](30_seq_det/)
+30. [Sequence Detector](30_seq+det/)
 (More to be added daily...)
