@@ -59,11 +59,11 @@ cd path/to/project_folder
 
 3. Compile the design and testbench:
 
-vlog (testbench file name with extension)
+vlog <file_name>.v
 
 4. Load the testbench for simulation:
    
-vsim (top module name)
+vsim <testbench_module>
 
 5. Add all signals to the waveform:
    
