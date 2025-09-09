@@ -43,4 +43,37 @@ Each project folder has:
 33. [4 Bit Divider](33_arr_div/)
 34. [Memory](34_memory/)
 35. [UART Trasmitter/Receiver](35_uart/)
-(More to be added daily...)
+
+## ▶️ Running the Verilog Projects in QuestaSim
+
+Each project folder contains:
+- `design.v` (RTL file)
+- `tb_design.v` (testbench)
+
+To run the simulation in **QuestaSim/ModelSim**:
+
+1. Open QuestaSim.
+2. Navigate to the project folder using the terminal inside QuestaSim.
+cd path/to/project_folder
+
+
+3. Compile the design and testbench:
+
+vlog (testbench file name with extension)
+
+4. Load the testbench for simulation:
+   
+vsim (top module name)
+
+5. Add all signals to the waveform:
+   
+add wave *
+
+6. Run the simulation:
+   
+run -all
+
+---
+
+💡 These are **basic to advanced Verilog projects** created for learning and practice.  
+They cover combinational, sequential circuits, and system-level designs — useful for interviews and hands-on experience.
